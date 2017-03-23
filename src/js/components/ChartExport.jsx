@@ -123,7 +123,7 @@ var ChartExport = React.createClass({
 		saveSvgAsPng.svgAsDataUri(chart, {
 			cleanFontDefs: true,
 			fontFamilyRemap: {
-				"SourceSansPro-Light": "Source Sans Pro Light",
+				"SourceSansPro-Light": "Source Sans Pro",
 				"SourceSansPro-Regular": "Source Sans Pro",
 			}
 		}, function(uri) {
