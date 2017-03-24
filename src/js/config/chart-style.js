@@ -18,8 +18,8 @@ var chart_style = {
 	overtick_top: "0.8em",
 	overtick_bottom: "0.8em",
 	fontFamilies: { // necessary for calculating text width before render
-		axes: "Source Sans Pro",
-		labels: "Source Sans Pro"
+		axes: "Source Sans Pro Light",
+		labels: "Source Sans Pro Regular"
 	},
 	fontSizes: {
 		large: "1.2em",
