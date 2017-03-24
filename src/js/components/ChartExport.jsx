@@ -125,6 +125,7 @@ var ChartExport = React.createClass({
 			fontFamilyRemap: {
 				"SourceSansPro-Light": "Source Sans Pro Light",
 				"SourceSansPro-Regular": "Source Sans Pro Regular",
+				"SourceSansPro-Bold": "Source Sans Pro Bold",
 			}
 		}, function(uri) {
 			autoClickDownload(filename, uri);

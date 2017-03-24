@@ -1,4 +1,4 @@
-$em_size = 20px
+$em_size = 24px
 $em_size_small = 14px
 $em_size_large = 36px
 
@@ -42,6 +42,7 @@ svg
 // SVG TEXT
 .svg-text
 	font-size $em_size
+	font-family $font-sans
 
 	tspan
 		&.em
@@ -65,6 +66,7 @@ svg
 			text-anchor end
 	&.svg-text-title
 		fill $color-body-text
+		font-family $font-sans-bold
 
 .medium .svg-text
 	font-size $em_size
@@ -120,7 +122,6 @@ svg
 	text.tick
 		fill $color-chart-axis-text
 		shape-rendering crispEdges
-		font-weight 300
 		&[data-anchor="middle"]
 			text
 				text-anchor middle
