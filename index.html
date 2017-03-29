@@ -9,6 +9,10 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body>
+
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
 	<div class="header">
 		<h1>Chartbuilder 3.0.5</h1>
 	</div>
@@ -16,18 +20,5 @@
 	</div>
 	<script src="js/main.js"></script>
 	<script src="js/pym.v1.min.js"></script>
-	<script>
-		var pymChild = new pym.Child();
-
-		function update_height() {
-			setTimeout(function(){
-				pymChild.sendHeight();
-				update_height();
-			}, 1000);
-		};
-
-		update_height();
-
-	</script>
 </body>
 </html>
