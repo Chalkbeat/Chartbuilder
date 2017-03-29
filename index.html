@@ -19,9 +19,15 @@
 	<script>
 		var pymChild = new pym.Child();
 
-		setTimeout(function(){
-			pymChild.sendHeight();
-		}, 1000);
+		function update_height() {
+			setTimeout(function(){
+				pymChild.sendHeight();
+				update_height();
+			}, 1000);
+		};
+
+		update_height();
+
 	</script>
 </body>
 </html>
