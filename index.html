@@ -17,7 +17,11 @@
 	<script src="js/main.js"></script>
 	<script src="js/pym.v1.min.js"></script>
 	<script>
-		var pym = new pym.Child();
+		var pymChild = new pym.Child();
+
+		setTimeout(function(){
+			pymChild.sendHeight();
+		}, 1000);
 	</script>
 </body>
 </html>
